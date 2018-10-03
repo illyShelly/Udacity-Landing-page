@@ -1,0 +1,132 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>illyShelly's Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+   <!--<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <img src="https://avatars2.githubusercontent.com/u/26350915?s=400&u=ca2bf6f1d7bee33c73173fadf2ce2fde98146466&v=4" alt="Profile Picture" id="avatar">
+      <h1><span class="my-name">illyShelly<br/> #Dev</span>
+      </h1>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section id="about">
+        <article class="basic">
+          <h2>About me</h2>
+          <p class="basic__content">"After graduation I spent few years working in the field related with my studies. Because I missed a lot the working environment what I experienced abroad. I decided to go back. Practicing English opened me new ways of learning and I could discovere this amazing world of coding.
+          <br>Just 3 months ago I ended up in Barcelona, where I attended coding bootcamp @LeWagon Bcn. Coding from morning to evening is over and our final baby project is alive :)
+          <br>Now it's time to start building something amazing -- very soon!</p>
+          <button class="button">Like</button>
+        </article>
+      </section>
+
+    <section id="portfolio">
+      <article class="basic">
+        <h2>Portfolio</h2>
+        <h3 class="basic__title">Final Project Ruby on Rails</h3>
+        <p class="basic__content">"Our final project @LeWagon called Eatamina is web application focused on chemical content in food products. Barcode can be scanned by mobile phone or simple added to the search bar. Coded especially for iPhone 8 screen.</p>
+        <table class="project">
+          <tbody>
+            <tr>
+              <td class="project__card-one">
+                <a href="http://eatamina.com"><img class="project__img" src="img/eatamina.png" alt="Eatamina project" title="Eatamina"></a>
+              </td>
+              <td class="project__card-two">
+                <h3 class="project__title">Eatamina</h3>
+                <p class="project__description">The basic goal is to help peple understand and recognice what they eat just by simple click! This is web application created with mobile first approach. It's the beginning with the ambition add more features and products to our database.</p>
+                <button class="button">Like</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      <!-- end of first project -->
+        <h3 class="basic__title">Alternative Airbnb</h3>
+        <p class="basic__content">This was for the first time when we worked in the team to build something real. It was a challenge but we got it.</p>
+        <table class="project">
+          <tbody>
+            <tr>
+              <td class="project__card-one">
+                <img class="project__img" src="img/altbnb.png" alt="Alternative airbnb project">
+              </td>
+              <td class="project__card-two">
+                <h3 class="project__title">Alternative Airbnb</h3>
+                <p class="project__description">Practicing our knowledge and skills gained within previous 6 weeks at Fullstack Coding Bootcamp.</p>
+                <button class="button">Like</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end of second project -->
+        <h3 class="basic__title">Music project</h3>
+        <p class="basic__content">First front-end project from Skillcrush. Fully responsive website with basic CSS.</p>
+        <table class="project">
+          <tbody>
+            <tr>
+              <td class="project__card-one">
+                <img class="project__img" src="img/skillcrush.png" alt="Music project from Skillcrush">
+              </td>
+              <td class="project__card-two">
+                <h3 class="project__title">Unplugged</h3>
+                <p class="project__description">Website with few pages of responsive design. My first bigger practice HTML and CSS.</p>
+                <button class="button">Like</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- end of third project -->
+      </article>
+    </section> <!-- end of portfolio section -->
+
+      <footer id="contact">
+          Find me on:
+          <ul class="list-in-line">
+            <li>
+              <a href="https://twitter.com/illyShelly" target="_blank">
+                <i class="fa fa-twitter"></i> <br> Twitter
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/illyShelly" target="_blank">
+                <i class="fa fa-github"></i> <br> Github
+              </a>
+            </li>
+            <!-- <li>
+              <a href="https://www.facebook.com/ilona.shelly" target="_blank">
+                <i class="fa fa-facebook"></i> <br> Facebook
+              </a>
+            </li> -->
+            <li>
+              <a href="https://www.linkedin.com/in/ilona-sell/" target="_blank">
+                <i class="fa fa-linkedin"></i> <br> Linkedin
+              </a>
+            </li>
+          </ul>
+         <p>Created by: illyShelly
+          <br></p>
+      </footer>
+    </main>
+
+    <script>
+      $("button").on("click", function() {
+        alert("Clicked!");
+      });
+    </script>
+  </body>
+</html>
+
+
